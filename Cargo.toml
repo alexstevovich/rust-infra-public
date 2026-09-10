@@ -1,0 +1,51 @@
+[workspace]
+members = [
+    "sha256",
+    "sha256-cli",
+    "sha512",
+    "sha512-cli",
+    "base64",
+    "base64-cli",
+    "base58btc",
+    "base58btc-cli",
+    "basen",
+    "basen-cli",
+    "uuidv4",
+    "uuidv4-cli",
+    "uuidv5",
+    "uuidv5-cli",
+    "xorcipher",
+    "xorcipher-cli",
+    "hex",
+    "hex-cli",
+    "rot13",
+    "rot13-cli",
+    "nanoid",
+    "nanoid-cli",
+    "clean-node",
+    "clean-node-cli",
+    "clean-python",
+    "clean-python-cli",
+    "clean-unreal",
+    "clean-unreal-cli",
+    "clean-rust",
+    "clean-rust-cli",
+    "image-container-meta",
+    "comfyui-meta",
+    "comfyui-meta-copy-cli",
+    "a1111-meta",
+    "a1111-meta-copy-cli",
+    "image-convert",
+    "image-convert-cli",
+    "filetree-maker",
+    "filetree-visualizer",
+    "filetree-cli",
+    "json-bundle",
+    "json-bundle-cli",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+homepage = "https://alexstevovich.com"

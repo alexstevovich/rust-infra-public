@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-clean-rust"
+description = "Library for finding Rust projects and removing their target directories"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+walkdir = "2"
+

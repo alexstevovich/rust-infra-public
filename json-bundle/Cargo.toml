@@ -1,0 +1,15 @@
+[package]
+name = "alexstevovich-json-bundle"
+description = "Reusable logic for reversibly bundling JSON objects with their source paths"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+glob = "0.3"
+serde_json = "1"
+tempfile = "3"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"

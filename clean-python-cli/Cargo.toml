@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-clean-python-cli"
+description = "CLI for removing Python build products, caches, bytecode, and optional virtual environments"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-clean-python = { path = "../clean-python" }
+
+[[bin]]
+name = "clean-python"
+path = "src/main.rs"
+

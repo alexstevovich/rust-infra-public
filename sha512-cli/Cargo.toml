@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-sha512-cli"
+description = "CLI for hashing a positional argument with SHA-512"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-sha512 = { path = "../sha512" }
+
+[[bin]]
+name = "sha512"
+path = "src/main.rs"

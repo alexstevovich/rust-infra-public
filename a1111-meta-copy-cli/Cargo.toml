@@ -1,0 +1,16 @@
+[package]
+name = "alexstevovich-a1111-meta-copy-cli"
+description = "Command-line lossless Automatic1111 and Forge metadata copier for PNG and WebP images"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+readme = "README.md"
+include = ["src/**", "README.md"]
+
+[[bin]]
+name = "a1111-meta-copy"
+path = "src/main.rs"
+
+[dependencies]
+a1111-meta = { package = "alexstevovich-a1111-meta", path = "../a1111-meta" }
+image-container-meta = { package = "alexstevovich-image-container-meta", path = "../image-container-meta" }

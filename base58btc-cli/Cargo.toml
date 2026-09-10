@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-base58btc-cli"
+description = "CLI for encoding and decoding values with the Bitcoin Base58 alphabet"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-base58btc = { path = "../base58btc" }
+
+[[bin]]
+name = "base58btc"
+path = "src/main.rs"

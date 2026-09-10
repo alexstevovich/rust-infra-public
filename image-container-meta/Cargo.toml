@@ -1,0 +1,12 @@
+[package]
+name = "alexstevovich-image-container-meta"
+description = "Lossless PNG text and WebP EXIF container metadata editing"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+readme = "README.md"
+
+[dependencies]
+crc32fast = "1.5"
+tempfile = "3"
+thiserror = "2.0"

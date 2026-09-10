@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-clean-node-cli"
+description = "CLI for removing node_modules directories from Node projects"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-clean-node = { path = "../clean-node" }
+
+[[bin]]
+name = "clean-node"
+path = "src/main.rs"
+

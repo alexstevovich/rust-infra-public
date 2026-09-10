@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-base64"
+description = "Pure standard-alphabet Base64 encoding and decoding with padding"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+base64 = "0.22"

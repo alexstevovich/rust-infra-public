@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-hex-cli"
+description = "CLI for encoding and decoding hexadecimal values"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-hex = { path = "../hex" }
+
+[[bin]]
+name = "hex"
+path = "src/main.rs"

@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-uuidv5"
+description = "Pure generation of deterministic RFC 4122 UUIDv5 values"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+uuid = { version = "1", features = ["v5"] }

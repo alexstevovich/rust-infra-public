@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-clean-node"
+description = "Library for finding Node projects and removing their node_modules directories"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+walkdir = "2"
+

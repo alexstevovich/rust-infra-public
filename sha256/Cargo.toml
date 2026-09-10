@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-sha256"
+description = "Pure SHA-256 hashing and lowercase hexadecimal formatting"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+sha2 = "0.10"

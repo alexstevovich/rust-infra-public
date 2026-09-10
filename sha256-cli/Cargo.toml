@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-sha256-cli"
+description = "CLI for hashing a positional argument with SHA-256"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-sha256 = { path = "../sha256" }
+
+[[bin]]
+name = "sha256"
+path = "src/main.rs"

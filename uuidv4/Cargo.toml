@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-uuidv4"
+description = "Pure generation of random RFC 4122 UUIDv4 values"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+uuid = { version = "1", features = ["v4"] }

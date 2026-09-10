@@ -1,0 +1,6 @@
+[package]
+name = "alexstevovich-rot13"
+description = "Pure self-inverse ROT13 transformation for ASCII letters"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true

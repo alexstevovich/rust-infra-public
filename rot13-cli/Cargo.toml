@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-rot13-cli"
+description = "CLI for applying the self-inverse ROT13 text transformation"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-rot13 = { path = "../rot13" }
+
+[[bin]]
+name = "rot13"
+path = "src/main.rs"

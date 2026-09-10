@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-json-bundle-cli"
+description = "CLI for reversibly packing JSON objects with their source paths"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[[bin]]
+name = "json-bundle"
+path = "src/main.rs"
+
+[dependencies]
+alexstevovich-json-bundle = { path = "../json-bundle" }
+clap = { version = "4.5", features = ["derive"] }

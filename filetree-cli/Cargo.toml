@@ -1,0 +1,15 @@
+[package]
+name = "alexstevovich-filetree-cli"
+description = "CLI for scanning and rendering shareable filesystem hierarchies"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+filetree-maker = { package = "alexstevovich-filetree-maker", path = "../filetree-maker" }
+filetree-visualizer = { package = "alexstevovich-filetree-visualizer", path = "../filetree-visualizer" }
+
+[[bin]]
+name = "filetree"
+path = "src/main.rs"

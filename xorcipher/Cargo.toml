@@ -1,0 +1,6 @@
+[package]
+name = "alexstevovich-xorcipher"
+description = "Pure repeating-key XOR transformation for byte slices"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true

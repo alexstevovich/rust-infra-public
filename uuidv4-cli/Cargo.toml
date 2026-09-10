@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-uuidv4-cli"
+description = "CLI for generating random RFC 4122 UUIDv4 values"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-uuidv4 = { path = "../uuidv4" }
+
+[[bin]]
+name = "uuidv4"
+path = "src/main.rs"

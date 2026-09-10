@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-basen-cli"
+description = "CLI for encoding and decoding values with a caller-supplied Base-N alphabet"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-basen = { path = "../basen" }
+
+[[bin]]
+name = "basen"
+path = "src/main.rs"

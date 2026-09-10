@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-base58btc"
+description = "Pure Base58 encoding and decoding with the Bitcoin alphabet"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+bs58 = "0.5"

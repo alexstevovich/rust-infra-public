@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-clean-rust-cli"
+description = "CLI for removing target directories from Rust projects"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-clean-rust = { path = "../clean-rust" }
+
+[[bin]]
+name = "clean-rust"
+path = "src/main.rs"
+

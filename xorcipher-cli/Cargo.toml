@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-xorcipher-cli"
+description = "CLI for applying repeating-key XOR and printing lowercase hexadecimal output"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-xorcipher = { path = "../xorcipher" }
+
+[[bin]]
+name = "xorcipher"
+path = "src/main.rs"

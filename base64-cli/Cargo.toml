@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-base64-cli"
+description = "CLI for encoding and decoding standard padded Base64 values"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-base64 = { path = "../base64" }
+
+[[bin]]
+name = "base64"
+path = "src/main.rs"

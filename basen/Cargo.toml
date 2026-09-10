@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-basen"
+description = "Pure arbitrary-alphabet positional Base-N encoding and decoding"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"

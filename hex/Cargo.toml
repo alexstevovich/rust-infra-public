@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-hex"
+description = "Pure lowercase hexadecimal encoding and case-insensitive decoding"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+hex = "0.4"

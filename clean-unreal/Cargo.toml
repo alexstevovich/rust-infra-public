@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-clean-unreal"
+description = "Library for finding Unreal projects and removing generated build artifacts"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+walkdir = "2"
+

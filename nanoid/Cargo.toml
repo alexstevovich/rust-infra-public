@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-nanoid"
+description = "Pure Nano ID generation with default or caller-supplied parameters"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+nanoid = "0.4"

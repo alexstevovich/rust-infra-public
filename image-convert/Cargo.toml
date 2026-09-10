@@ -1,0 +1,16 @@
+[package]
+name = "alexstevovich-image-convert"
+description = "Library for decoding, transforming, and encoding still and animated images"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+thiserror = "2"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "bmp", "tiff", "webp", "gif"] }
+png = "0.18"
+gif = "0.14"
+webp-animation = "0.10"
+
+[dev-dependencies]
+tempfile = "3"

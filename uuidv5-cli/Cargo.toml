@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-uuidv5-cli"
+description = "CLI for generating RFC 4122 UUIDv5 values from a namespace and name"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-uuidv5 = { path = "../uuidv5" }
+
+[[bin]]
+name = "uuidv5"
+path = "src/main.rs"

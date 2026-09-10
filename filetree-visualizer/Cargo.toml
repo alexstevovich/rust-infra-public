@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-filetree-visualizer"
+description = "Reusable filtering and ASCII or JSON rendering for filetree hierarchies"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+filetree-maker = { package = "alexstevovich-filetree-maker", path = "../filetree-maker" }
+serde_json = "1"

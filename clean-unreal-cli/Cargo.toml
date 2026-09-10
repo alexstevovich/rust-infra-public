@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-clean-unreal-cli"
+description = "CLI for removing generated artifacts from Unreal Engine projects and plugins"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-clean-unreal = { path = "../clean-unreal" }
+
+[[bin]]
+name = "clean-unreal"
+path = "src/main.rs"
+

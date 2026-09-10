@@ -1,0 +1,14 @@
+[package]
+name = "alexstevovich-a1111-meta"
+description = "Library for extracting and embedding Automatic1111 and Forge generation metadata in PNG and WebP images"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+image-container-meta = { package = "alexstevovich-image-container-meta", path = "../image-container-meta" }
+png = "0.18"
+thiserror = "2"
+
+[dev-dependencies]
+image = { version = "0.25", default-features = false, features = ["png", "webp"] }

@@ -1,0 +1,10 @@
+[package]
+name = "alexstevovich-clean-python"
+description = "Library for finding and removing Python build products and cache files"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+walkdir = "2"
+

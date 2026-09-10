@@ -1,0 +1,13 @@
+[package]
+name = "alexstevovich-nanoid-cli"
+description = "CLI for generating Nano IDs with optional length and alphabet customization"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+alexstevovich-nanoid = { path = "../nanoid" }
+
+[[bin]]
+name = "nanoid"
+path = "src/main.rs"

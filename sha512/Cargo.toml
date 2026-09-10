@@ -1,0 +1,9 @@
+[package]
+name = "alexstevovich-sha512"
+description = "Pure SHA-512 hashing and lowercase hexadecimal formatting"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+
+[dependencies]
+sha2 = "0.10"
